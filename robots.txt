@@ -1,0 +1,16 @@
+# DACHADAM.UZ — robots.txt
+# dachadam.uz/robots.txt manziliga joylashtiring
+
+User-agent: *
+Allow: /
+
+# Keraksiz URL'larni indekslamasin
+Disallow: /api/
+Disallow: /admin/
+Disallow: /?q=
+Disallow: /*?sort=
+Disallow: /*?filter=
+
+# Sitemap joylashuvi
+Sitemap: https://dachadam.uz/sitemap.xml
+Sitemap: https://dachadam.uz/sitemap-dachalar.xml
